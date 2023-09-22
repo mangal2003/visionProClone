@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Vision Pro - Apple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="navBar">
+        <div id="navFixed">
+            <div id="vision-pro-text">
+                <h3>Vision Pro</h3>
+                <span>Notify Me</span>
+            </div>
+        </div>
+        <div id="navtop">
+            <div class="icons">
+                <div class="topNav-icon" id="apple-icon"><i class="ri-apple-fill"></i></div>
+            </div>
+            <div id="textup" class="none">
+                <div class="topNav">Store</div>
+                <div class="topNav">Mac</div>
+                <div class="topNav">iPad</div>
+                <div class="topNav">iPhone</div>
+                <div class="topNav">Watch</div>
+                <div class="topNav">Vision</div>
+                <div class="topNav">AirPods</div>
+                <div class="topNav">TV & Home</div>
+                <div class="topNav">Entertainment</div>
+                <div class="topNav">Accessories</div>
+                <div class="topNav">Support</div>
+            </div>
+            <div class="icons">
+                <div class="topNav-icon" id="search-bar"><i class="ri-search-line"></i></div>
+                <div class="topNav-icon" id="writing-pad"><i class="ri-clipboard-line"></i></div>
+                <div class="topNav-icon">
+                    <div id="menu" onclick="menu()">
+                        <i class="ri-equal-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page1">
+        <div>Introducing</div>
+        <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/hero/apple_vision_pro_logo_base__ff62ypdqteie_medium_2x.png"
+            alt="">
+    </div>
+
+    <div id="page2">
+        <span>Welcome to the era of spatial computing.</span>
+        <div class="video1">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/foundation-spatial-computing/small.mp4#t=0"></video>
+        </div>
+    </div>
+
+    <div id="page3">
+        <span>Apple Vision Pro seamlessly blends digital content with your physical space.</span>
+        <div class="video2">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/foundation-digital-canvas/small.mp4"></video>
+        </div>
+    </div>
+
+    <div id="page4">
+        <span>You navigate simply by using your eyes, hands, and voice.</span>
+        <div class="video3">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/foundation-inputs/small.mp4"></video>
+        </div>
+    </div>
+
+    <div id="page5">
+        <span>So you can do the things you love in ways never before possible.</span>
+        <div class="video4">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/foundation-entertainment/small.mp4"></video>
+        </div>
+        <span>You've never seen everything like this before.</span>
+    </div>
+
+    <div id="page6">
+        <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/hero/apple_vision_pro_logo_base__ff62ypdqteie_medium_2x.png"
+            alt="">
+        <div id="links">
+            <span> <a
+                    href="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/films/product/vision-pro-product-tpl-us-2023_16x9.m3u8">Watch
+                    the film </a><i class="ri-video-fill"></i></span>
+            <span> <a href="https://www.apple.com/apple-events/">Watch the event </a><i
+                    class="ri-arrow-right-s-line"></i></span>
+        </div>
+        <span class="span-text">Available early next year in the U.S.</span>
+
+        <img id="binoImg"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/intro/hardware_base__ecl2v43j73o2_small.jpg"
+            alt="">
+        <div id="btn"><i class="ri-add-fill"></i> Take a closer look at Vision Pro</div>
+    </div>
+
+    <div id="page7">
+        <h3 id="h3">Apps</h3>
+        <p id="pTop">
+            Free your desktop.
+            <br>
+            And your apps will
+            <br> follow.
+        </p>
+        <div class="video1">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/experience-apps/small.mp4"></video>
+        </div>
+        <h3 id="h3btm">Your apps live in your space.</h3>
+        <br>
+        <p id="pBtm">With Vision Pro, you have an infinite canvas that transforms how you use the apps you love.
+            Arrange
+            apps
+            anywhere and
+            scale them to the perfect size, making the workspace of your dreams a reality — all while staying
+            present in
+            the world
+            around you. Browse the web in Safari, create a to-do list in Notes, chat in Messages, and seamlessly
+            move
+            between them
+            with a glance.
+        </p>
+        <div id="btn-2" onclick="open_wrapper1()"><i class="ri-add-fill"></i> Learn more about apps</div>
+        <div id="wrapper1" class="wrapper none">
+            <div id="have-icons">
+                <div id="x-icon" onclick="close_wrapper1()">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <div id="control-icons">
+                    <i class="ri-arrow-left-s-line"></i>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <div id="have-column">
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/apps/drawer/apps_selection__d5oucgbrc5me_small.jpg"
+                        alt="">
+                    <p>
+                        Vision Pro has <span>the familiar apps you know and love</span>
+                        — transformed to live in your space. Like
+                        Safari, Photos, Music, and
+                        Messages. And with iCloud, your content is automatically synced with your iPhone, iPad, and Mac.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/apps/drawer/app_store__ge30nsef8xui_small.jpg"
+                        alt="">
+                    <p>
+                        A <span>brand-new App Store</span> will launch with Vision Pro, featuring groundbreaking apps
+                        built for
+                        visionOS, as well as
+                        compatible iPad and iPhone apps.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-apps-environments/small.mp4">
+                    </video>
+                    <p>
+                        <span>Environments</span> magically transform your surroundings with stunning landscapes,
+                        letting apps grow beyond the dimensions of
+                        your room, and creating the perfect place to focus.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-apps-3d/small.mp4">
+                    </video>
+                    <p>
+                        Vision Pro brings <span>3D objects</span> to life. You can pull a 3D object out of an app and
+                        look at it from
+                        every angle, as if it's
+                        right in front of you.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-apps-mindfulness/small.mp4">
+                    </video>
+                    <p>
+                        Apps can expand fully into your space, like during a <span>Mindfulness</span> session, where you
+                        can create a private moment of calm.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-apps-mac/small.mp4">
+
+                    </video>
+                    <p>
+                        Bring your <span>Mac</span> wirelessly into Vision Pro with Mac Virtual Display. You can place
+                        it anywhere in space and use Vision
+                        Pro as an enormous, private, portable 4K display.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/apps/drawer/magic_keyboard__kes6sc8k5puq_small.jpg"
+                        alt="">
+                    <p>
+                        Vision Pro works with Bluetooth accessories like <span>Magic Keyboard</span> and <span>Magic
+                            Trackpad</span>, which are great for things like
+                        complex spreadsheets and long emails.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page8">
+        <h3 id="h3">Entertainment</h3>
+        <p id="pTop">
+            The ultimate
+            <br>
+            theater.
+            <br>
+            Wherever you are.
+        </p>
+        <div class="video1">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/experience-entertainment/small.mp4"></video>
+        </div>
+        <h3 id="h3btm">An immersive way to experience entertainment.</h3>
+        <br>
+        <p id="pBtm">Vision Pro can transform any room into your own personal theater. Expand your movies, shows, and
+            games up to the perfect
+            size while feeling like you're part of the action with Spatial Audio. And with more pixels than a 4K TV for
+            each eye,
+            you can enjoy stunning content wherever you are — whether that's a long flight or the couch at home.
+        </p>
+        <div id="btn-2" onclick="open_wrapper2()"><i class="ri-add-fill"></i> Learn more about entertainment</div>
+
+        <div id="wrapper2" class="wrapper none">
+            <div id="have-icons">
+                <div id="x-icon" onclick="close_wrapper2()">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <div id="control-icons">
+                    <i class="ri-arrow-left-s-line"></i>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <div id="have-column">
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/entertainment/drawer/cinematic_experience__dtfrzv5tays2_small.jpg"
+                        alt="">
+                    <p>
+                        Turn your room into a personal movie theater with the <span>Cinema Environment</span>. Enjoy
+                        shows and movies
+                        at the frame rate and
+                        aspect ratio the filmmaker intended with immersive Spatial Audio. Or use a majestic Environment
+                        like Mt. Hood to make
+                        your screen feel 100 feet wide.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/entertainment/drawer/immersive__eozw5e127o6e_small.jpg"
+                        alt="">
+                    <p>
+                        All-new <span>Apple Immersive Videos</span> are 180-degree 3D 8K recordings captured with
+                        Spatial Audio —
+                        putting you right inside
+                        the action and transporting you to places you've never been.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/entertainment/drawer/apple_tv__baw7qys7wnsi_small.jpg"
+                        alt="">
+                    <p>
+                        Your favorite movies and TV shows from <span>Apple TV+</span> and other streaming services are
+                        available on Vision Pro.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay loop muted
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-entertainment-games/small.mp4">
+                    </video>
+                    <p>
+                        visionOS games in <span>Apple Arcade</span> offer completely new ways to play by using the space
+                        around you. Find over 100 of your
+                        favorite iPad games, and also play using Bluetooth game controllers.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-entertainment-3d-movies/small.mp4">
+                    </video>
+                    <p>
+                        Enjoy <span>3D movies</span> with amazing depth and crisp motion. Watch the story leap off the
+                        screen like never before.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="page9">
+        <h3 id="h3">Photos and Videos</h3>
+        <p id="pTop">
+            Be in the moment.
+            <br>
+            All over again.
+        </p>
+        <div class="video1">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/experience-photos-videos/small.mp4"></video>
+        </div>
+        <h3 id="h3btm">Your memories come alive.</h3>
+        <br>
+        <p id="pBtm">
+            Vision Pro is Apple's first 3D camera. You can capture magical spatial photos and spatial videos in 3D, then
+            relive
+            those cherished moments like never before with immersive Spatial Audio. Your existing library of photos and
+            videos looks
+            incredible at remarkable scale. And panoramas wrap around you — making you feel like you're standing right
+            where you
+            took them.
+        </p>
+        <div id="btn-2" onclick="open_wrapper3()"><i class="ri-add-fill"></i> Learn more about photos and videos</div>
+
+        <div id="wrapper3" class="wrapper none">
+            <div id="have-icons">
+                <div id="x-icon" onclick="close_wrapper3()">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <div id="control-icons">
+                    <i class="ri-arrow-left-s-line"></i>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <div id="have-column">
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/photos-videos/drawer/top_button__btvsc4mfgcb6_small.jpg"
+                        alt="">
+                    <p>
+                        The <span>top button</span> makes it quick and easy to capture spatial videos or photos.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay loop muted
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-photos-videos-capture/small.mp4"></video>
+                    <p>
+                        When you're capturing a spatial video or photo, Vision Pro makes it clear to those around you
+                        that you're <span>recording</span>.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay loop muted
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-photos-videos-spatial-photos/small.mp4"></video>
+                    <p>
+                        Spatial videos and photos have <span>incredible depth</span> that lets you see into a moment.
+                        Expand them to get even closer to your
+                        favorite memories.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="page10">
+        <h3 id="h3">Connection</h3>
+        <p id="pTop">
+            Get on the
+            <br>
+            same page.
+            <br>
+            In the same space.
+        </p>
+        <div class="video1">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/experience-connection/small.mp4"></video>
+        </div>
+        <h3 id="h3btm">Make meetings more meaningful.</h3>
+        <br>
+        <p id="pBtm">
+            Vision Pro makes it easy to collaborate and connect wherever you are. FaceTime video tiles are life-size,
+            and as new
+            people join, the call simply expands in your room. Within FaceTime, you can also use apps to collaborate
+            with colleagues
+            on the same documents simultaneously.
+        </p>
+        <div id="btn-2" onclick="open_wrapper4()"><i class="ri-add-fill"></i> Learn more about connection</div>
+
+        <div id="wrapper4" class="wrapper none">
+            <div id="have-icons">
+                <div id="x-icon" onclick="close_wrapper4()">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <div id="control-icons">
+                    <i class="ri-arrow-left-s-line"></i>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <div id="have-column">
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/connection/drawer/facetime__cn2l222r4mc2_small.jpg"
+                        alt="">
+                    <p>
+
+                        In <span>FaceTime</span>, each participant appears in your space within a tile that you can
+                        adjust in scale. <span>Spatial Audio</span> makes the
+                        conversation feel more natural by placing each person's voice in the location of their tile.</p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-connection-persona/small.mp4"></video>
+                    <p>
+                        Your digital <span>Persona</span> allows others to see you while you're wearing Vision Pro. It's
+                        a dynamic, natural representation of
+                        your face and hand movements while you're using FaceTime.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/experiences/connection/drawer/shareplay__fqxq1g3bbfmi_small.jpg"
+                        alt="">
+                    <p>
+                        Share apps with others and use them together in FaceTime with <span>SharePlay</span>. You
+                        continue to see everyone in large video
+                        tiles while sharing an app.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="page11">
+        <h4 id="h4">Design</h4>
+        <h1 id="h1">Designed by Apple.</h1>
+        <p id="firstpara">
+            Apple Vision Pro is the result of decades of experience designing high-performance, mobile, and wearable
+            devices —
+            culminating in the most ambitious product Apple has ever created. Vision Pro integrates incredibly advanced
+            technology
+            into an elegant, compact form, resulting in an amazing experience every time you put it on.
+        </p>
+
+        <p class="paratype2 upper">
+            <span>Enclosure.</span> A singular piece of three-dimensionally formed laminated glass flows into an
+            aluminum
+            alloy frame that curves to wrap
+            around your face.
+        </p>
+        <p class="paratype2 upper2">
+            <span>Light Seal.</span> The Light Seal gently flexes to conform to your face, delivering a precise fit
+            while
+            blocking out stray
+            light.
+        </p>
+        <p class="paratype2 upper3">
+            <span>Head Band.</span> The Head Band provides cushioning, breathability, and stretch. The Fit Dial lets you
+            adjust Vision Pro
+            precisely to your head.
+        </p>
+        <p class="paratype2 upper4">
+            <span>Power. </span> The external battery supports up to 2 hours of use, and all-day use when plugged in.
+        </p>
+        <p class="paratype2 upper5">
+            <span>Sound.</span> Speakers positioned close to your ears deliver rich Spatial Audio while keeping you
+            aware of your surroundings.
+        </p>
+        <img id="image1"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/design/portrait_right_base__cd0c4xdglcs2_small.jpg"
+            alt="">
+        <img id="image2"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/design/portrait_front_base__gmqifatci56q_small.jpg"
+            alt="">
+        <p class="paratype2 upper6">
+            <span>EyeSight. </span> An outward display reveals your eyes while wearing Vision Pro, letting others know
+            when you are using apps or
+            fully immersed.
+        </p>
+        <img id="btmimg1"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_small.jpg"
+            alt="">
+        <img id="btmimg2"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_small.jpg"
+            alt="">
+        <img id="btmimg3"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_startframe__fvet9b5mg86e_small.jpg"
+            alt="">
+
+        <p class="paratype2 lower">
+            A singular piece of <span>three-dimensionally formed laminated glass</span> acts as an optical surface for
+            the cameras and
+            sensors
+            that view the world. It flows seamlessly into a <span>custom aluminum alloy frame</span> that gently curves
+            to wrap
+            around your face
+            while serving as an attachment point for the <span>Light Seal</span>.
+        </p>
+
+        <img id="imglast"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/design/light_seal__fo87cv0zkcmm_small.jpg"
+            alt="">
+        <div id="btn-2" onclick="open_wrapper5()"><i class="ri-add-fill"></i> Learn more about design</div>
+
+        <div id="wrapper5" class="wrapper none">
+            <div id="have-icons">
+                <div id="x-icon" onclick="close_wrapper5()">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <div id="control-icons">
+                    <i class="ri-arrow-left-s-line"></i>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <div id="have-column">
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-design-light-seal/small.mp4"></video>
+                    <p>
+                        The <span>Light Seal</span> magnetically attaches to the aluminum alloy frame. It gently flexes
+                        to conform to individual face shapes.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-design-headband/small.mp4"></video>
+                    <p>
+                        The <span>Head Band</span> is 3D knitted, creating a unique rib structure that provides
+                        cushioning, breathability, and stretch.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-design-zeiss-lenses/small.mp4"></video>
+                    <p>
+                        <span>Zeiss Optical Inserts</span> can be customized with your vision prescription,2
+                        magnetically attaching to the lenses for precise
+                        viewing and eye tracking.
+                    </p>
+
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/design/drawer/battery__cjkato9jqdjm_small.jpg"
+                        alt="">
+                    <p>
+                        An <span>aluminum-encased battery</span> can be slipped into a pocket for portable power. It
+                        connects using a woven braided cable.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="page12">
+        <h4>visionOS </h4>
+        <h1>Apple's first spatial operating system.</h1>
+        <div class="video1">
+            <video autoplay muted loop
+                src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/visionos/small.mp4"></video>
+        </div>
+        <h3>Interaction designed for spatial computing.</h3>
+        <p>
+            Built on the foundation of macOS, iOS, and iPadOS, visionOS enables powerful spatial experiences. Control
+            Vision Pro
+            with your eyes, hands, and voice — interactions feel intuitive and magical. Simply look at an element, tap
+            your fingers
+            together to select, and use the virtual keyboard or dictation to type.
+        </p>
+        <img id="photo1"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/scaling_ui__gosi0305um2y_small.jpg"
+            alt="">
+        <img id="photo2"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/spatial_interaction__br11mf88bzxy_small.jpg"
+            alt="">
+        <h3>Apps leap into life.</h3>
+        <p>
+            In visionOS, apps can fill the space around you, beyond the boundaries of a display. They can be moved
+            anywhere, scaled
+            to the perfect size, react to the lighting in your room, and even cast shadows.
+        </p>
+
+        <div id="scroller">
+            <div class="slides indexupslide" id="slide1">
+                <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/environment_mt_hood__bowcnbltk57m_small.jpg"
+                    alt="">
+            </div>
+            <div class="slides " id="slide2">
+                <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/environment_white_sand__d9yi9qfevrue_small.jpg"
+                    alt="">
+            </div>
+            <div class="slides" id="slide3">
+                <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/environment_moon__cddspuen58eq_small.jpg"
+                    alt="">
+            </div>
+            <div id="controllers">
+                <span onclick="slide1()" class="active" id="controller1">_</span>
+                <span onclick="slide2()" id="controller2">_</span>
+                <span onclick="slide3()" id="controller3">_</span>
+            </div>
+
+        </div>
+        <h3>Expand your surroundings.</h3>
+        <p>
+            Environments let you transform the space around you, so apps can extend beyond the dimensions of your room.
+            Choose from
+            a selection of beautiful landscapes, or magically replace your ceiling with a clear, open sky. The Digital
+            Crown gives
+            you full control over how immersed you are.
+        </p>
+        <img id="photoend"
+            src="https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/around_you__bfdlxkwczahe_small.jpg"
+            alt="">
+        <h3>Stay connected to people around you.</h3>
+        <p>
+            Vision Pro helps you remain connected to those around you. EyeSight reveals your eyes and lets those nearby
+            know when
+            you're using apps or fully immersed in an experience. When someone approaches, Vision Pro simultaneously
+            lets you see
+            the person and reveals your eyes to them.
+        </p>
+        <div id="btn-2" onclick="open_wrapper6()"><i class="ri-add-fill"></i> Learn more about visionOS</div>
+
+        <div id="wrapper6" class="wrapper none">
+            <div id="have-icons">
+                <div id="x-icon" onclick="close_wrapper6()">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <div id="control-icons">
+                    <i class="ri-arrow-left-s-line"></i>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <div id="have-column">
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-visionos-eyes/small.mp4"></video>
+                    <p>
+                        Navigate visionOS simply by <span>looking</span> at apps, buttons, and text fields. App icons
+                        and buttons subtly come to life when
+                        you look at them.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-visionos-tap/small.mp4"></video>
+                    <p>
+                        <span>Tap</span> your fingers together to make a selection and gently <span>flick</span> to
+                        scroll. Vision Pro is designed to understand hand
+                        gestures from comfortable positions, like resting in your lap or on the sofa.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-visionos-voice/small.mp4"></video>
+                    <p>
+                        Simply look at the microphone button in a search field and start <span>speaking</span> to
+                        dictate text.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/drawer/siri__bb6p4jhfelki_small.jpg"
+                        alt="">
+                    <p>
+                        Use <span>Siri</span> to quickly open or close apps, play media, and more.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/drawer/accessibility__fkae0052zl26_small.jpg"
+                        alt="">
+                    <p>
+                        Like every Apple product, Vision Pro was designed with <span>accessibility</span> in mind. The
+                        flexible input system lets you use
+                        your eyes, hands, and voice individually or in any combination with features like Dwell, Voice,
+                        and Pointer Control.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="page13">
+        <h3>Technology</h3>
+        <h1>Innovation you can see, hear, and feel.</h1>
+        <h3>Pushing boundaries from the inside out.</h3>
+        <p id="para1">
+            Spatial experiences on Vision Pro are only possible through groundbreaking Apple technology. Displays the
+            size of a
+            postage stamp that deliver more pixels than a 4K TV to each eye. Incredible advances in Spatial Audio. A
+            revolutionary
+            dual-chip design featuring custom Apple silicon. A sophisticated array of cameras and sensors. All the
+            elements work
+            together to create an unprecedented experience you have to see to believe.
+        </p>
+        <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/technology/displays/hero_base__bpxhq09r962u_small.jpg"
+            alt="">
+        <h3>More pixels than a 4K TV. For each eye.</h3>
+        <p>
+            The <span>custom micro-OLED display system</span> features 23 million pixels, delivering stunning resolution
+            and colors.
+            And a
+            specially designed three-element lens creates the feeling of a display that's everywhere you look.
+        </p>
+        <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/technology/spatial_audio_base__d8zvuse3yu4i_small.jpg"
+            alt="">
+
+        <h3>Our most advanced Spatial Audio system ever.</h3>
+        <p>
+            Dual-driver audio pods positioned next to each ear deliver personalized sound while letting you hear what's
+            around you.
+            Ambient <span>Spatial Audio</span> makes sounds feel like they're coming from your surroundings. And with
+            audio raytracing, Vision
+            Pro analyzes your room's acoustic properties — including the physical materials — to adapt and match sound
+            to your
+            space.
+        </p>
+        <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/technology/features/eye_tracking_on__ln11reqs6mi6_small.jpg"
+            alt="">
+        <h3>Responsive, precision eye tracking.</h3>
+        <p>
+            A high-performance eye tracking system of <span>LEDs</span> and <span>infrared cameras</span> projects
+            invisible light patterns onto each eye.
+            This advanced system provides ultraprecise input without your needing to hold any controllers, so you can
+            accurately
+            select elements just by looking at them.
+        </p>
+        <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/technology/features/sensors_all__dp0a8e4y4u4i_small.jpg"
+            alt="">
+        <h3>A sophisticated sensor array.</h3>
+        <p>
+            A pair of <span>high-resolution cameras</span> transmit over one billion pixels per second to the displays
+            so you can see
+            the world
+            around you clearly. The system also helps deliver <span>precise head and hand tracking</span> and
+            <span>real-time 3D mapping</span>,
+            all while
+            understanding your hand gestures from a wide range of positions.
+        </p>
+        <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/technology/features/sensors_chips__s805s5o3gkii_small.jpg"
+            alt="">
+        <h3>Revolutionary dual-chip performance.</h3>
+        <p>
+            A unique dual-chip design enables the spatial experiences on Vision Pro. The powerful <span>M2</span> chip
+            simultaneously runs
+            visionOS, executes advanced computer vision algorithms, and delivers stunning graphics, all with incredible
+            efficiency.
+            And the brand-new <span>R1</span> chip is specifically dedicated to process input from the cameras, sensors,
+            and microphones,
+            streaming images to the displays within 12 milliseconds — for a virtually lag-free, real-time view of the
+            world.
+        </p>
+        <div id="btn-2" onclick="open_wrapper7()"><i class="ri-add-fill"></i> Learn more about technology</div>
+
+        <div id="wrapper7" class="wrapper none">
+            <div id="have-icons">
+                <div id="x-icon" onclick="close_wrapper7()">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <div id="control-icons">
+                    <i class="ri-arrow-left-s-line"></i>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <div id="have-column">
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-technology-lidar-truedepth/small.mp4"></video>
+                    <p>
+                        The <span>LiDAR Scanner</span> and <span>TrueDepth camera</span> work together to create a fused
+                        3D map of
+                        your surroundings, enabling Vision Pro
+                        to render digital content accurately in your space.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/technology/drawer/thermal__e2wndin6tdaq_small.jpg"
+                        alt="">
+                    <p>
+                        A specially designed <span>thermal system</span> gently moves air through Vision Pro, so it can
+                        deliver
+                        phenomenal performance while
+                        remaining cool and quiet.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-technology-ir/small.mp4"></video>
+                    <p>
+                        <span>Infrared flood illuminators</span>
+                        work with the external sensors to enhance hand tracking performance in low-light conditions.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="page14">
+        <h3>
+            <i class="ri-lock-fill"></i><br>
+            Privacy and Security
+        </h3>
+        <h1>When it comes to privacy, we don't blink.</h1>
+        <p>
+            <span>Privacy and security built in.</span> Like every Apple product and service, Vision Pro was designed to
+            help protect
+            your
+            privacy and keep you in control of your data. It builds on the foundation of existing Apple privacy and
+            security
+            features with new technologies like Optic ID, a secure authentication system that uses the uniqueness of
+            your iris.
+        </p>
+        <div id="btn-2" onclick="open_wrapper8()"><i class="ri-add-fill"></i> Learn more about privacy and security
+        </div>
+
+        <div id="wrapper8" class="wrapper none">
+            <div id="have-icons">
+                <div id="x-icon" onclick="close_wrapper8()">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <div id="control-icons">
+                    <i class="ri-arrow-left-s-line"></i>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+            <div id="have-column">
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-privacy-optic-id/small.mp4"></video>
+                    <p>
+                        Use <span>Optic ID</span> to authorize purchases and unlock passwords with the uniqueness of
+                        your iris. Optic ID data is encrypted,
+                        never leaves your device, and is accessible only to the Secure Enclave processor.
+                    </p>
+                </div>
+                <div class="columns">
+                    <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/privacy/drawer/camera_sensor_data__ed5zeclvc7qu_small.jpg"
+                        alt="">
+                    <p>
+                        Data from <span>cameras and sensors</span> is processed at the system level, so individual apps
+                        do not need to see your surroundings
+                        to enable spatial experiences.
+                    </p>
+                </div>
+                <div class="columns">
+                    <video autoplay muted loop
+                        src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/drawer-privacy-eye-input/small.mp4"></video>
+                    <p>
+                        <span>Eye input</span> is not shared with Apple, third-party apps, or websites. Only your final
+                        selections are transmitted when you
+                        tap your fingers together.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="page15">
+        <div id="smallimg">
+            <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/routers/ar_logo__bmtaba6ckk76_small.png"
+                alt="">
+        </div>
+        <h1>Use AR to view Apple Vision Pro.</h1>
+        <h3>Open this page using Safari on your iPhone or iPad.</h3>
+        <div id="imgbadi">
+            <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/routers/ar_tile__que64jqs2t2e_small.jpg"
+                alt="">
+        </div>
+    </div>
+
+    <div id="page16">
+        <div id="img">
+            <img src="https://www.apple.com/v/apple-vision-pro/a/images/overview/routers/developers__bxrd1uafspsi_small.png"
+                alt="">
+        </div>
+        <h2>An all-new platform.
+            An all-new world for developers.
+        </h2>
+        <p>
+            The possibilities for what developers can dream up and build for Vision Pro are endless. And with familiar
+            tools and
+            frameworks like Xcode, SwiftUI, RealityKit, and ARKit, as well as support for Unity and the new 3D-content
+            preparation
+            app Reality Composer Pro, developers have everything they need to create amazing spatial experiences.
+        </p>
+        <a href="https://developer.apple.com/visionos/">Learn more about developing for Apple Vision Pro <i
+                class="ri-arrow-right-s-line"></i></a>
+    </div>
+
+
+    <div id="footer">
+        <p>
+            1. Testing conducted by Apple in May 2023 using preproduction Apple Vision Pro units and software. Testing
+            consisted of
+            full battery discharge while performing each of the following tasks: video playback, internet browsing,
+            spatial video
+            capture, and FaceTime. Video playback tested in conjunction with an Environment, using 2D movie content
+            purchased from
+            the Apple TV app. Internet browsing tested using 20 popular websites. FaceTime tested between two Apple
+            Vision Pro units
+            with Personas enabled. Tested with Wi-Fi associated to a network. Battery life depends on device settings,
+            usage,
+            network, environmental conditions, and many other factors. Battery tests are conducted using specific Apple
+            Vision Pro
+            units; actual results may vary.
+        </p>
+        <br> <br>
+        <p>
+            2. Valid prescription required. Not all prescriptions are supported. Vision correction accessories are sold
+            separately.
+        </p>
+        <br> <br>
+        <p>
+            © 2023 TAKE-TWO INTERACTIVE SOFTWARE INC. All Rights Reserved. <br> <br>
+            © 2023 NBA Properties, Inc. All Rights Reserved. Officially Licensed Product of the National Basketball
+            Association. <br>
+            <br> A subscription may be required for some services. Not all content may be available in all areas. <br>
+            <br>Everything Everywhere All At Once © 2022 A24 Distribution, LLC. All rights reserved. <br> <br>
+            <em>Avatar: The Way of Water</em> © 2022 20th Century Studios and TSG Entertainment Finance LLC.
+            <br> <br>Users must be 13 years or older. <br> <br>
+            Available early next year on <a href="https://www.apple.com/">apple.com</a> and at Apple retail stores in
+            the U.S. <br>
+            <br>This device has not been authorized as required by the rules of the Federal Communications Commission.
+            This device is
+            not, and may not be, offered for sale or lease, or sold or leased, until authorization is obtained.
+        </p>
+        <br>
+        <hr>
+        <span id="logo"><i class="ri-apple-fill"></i> <i class="ri-arrow-right-s-line"></i> Apple Vision Pro</span>
+        <hr>
+        <div class="lastlinks"><span>Shop and Learn</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>Apple Wallet</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>Account</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>Entertainment</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>Apple Store</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>For Business</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>For Education</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>For Healthcare</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>For Government</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>Apple Values</span><span><i class="ri-add-fill"></i></span></div>
+        <div class="lastlinks"><span>About Apple</span><span><i class="ri-add-fill"></i></span></div>
+
+        <p>More ways to shop: <a href="https://www.apple.com/retail/">Find an Apple Store</a> or <a
+                href="https://locate.apple.com/">other
+                retailer</a> near
+            you. Or call 1-800-MY-APPLE.</p>
+        <br><br>
+        <a href="https://www.apple.com/choose-country-region/">United States</a>
+        <br><br>
+        <p>Copyright © 2023 Apple Inc. All rights reserved.</p>
+        <br> <br>
+        <span><a href="https://www.apple.com/legal/privacy/">Privacy Policy</a></span>
+        <span><a href="https://www.apple.com/legal/internet-services/terms/site.html">Terms of Use</a></span>
+        <span><a href="https://www.apple.com/us/shop/goto/help/sales_refunds">Sales and refund</a></span>
+        <span><a href="https://www.apple.com/legal/">Legal</a></span>
+        <span><a href="https://www.apple.com/sitemap/">Site Map</a></span>
+    </div>
+
+    <!-- script here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
